@@ -7,7 +7,7 @@ The src folder has 3 important libraries and one for testing ground. The first 2
 
 In Testing.ipynb you can see how backpropogation and graph come together. First, you set up a series of equations: 
 
-`
+```
 a = Var(3)
 b = Var(12)
 c = Var(-5)
@@ -20,7 +20,7 @@ z = a + b
 y = z * c * f
 x = y / d
 final = x + e
-`
+```
 
 Now you can run .back() to get the gradients of each of these nodes and finally you can draw_graph(final). What comes from this can be seen in Testing and running for yourself.
 
